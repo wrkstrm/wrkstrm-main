@@ -89,7 +89,7 @@ Example Extensions:
 
 ### Random String Utilities
 
-See [Random.swift](Sources/WrkstrmMain/Random/Random.swift).
+See [Random.swift](sources/wrkstrm-main/Random/Random.swift).
 
 ```swift
 let ascii = Random.printableASCII(length: 8)
@@ -100,10 +100,10 @@ let ascii = Random.printableASCII(length: 8)
 ### JSON Helpers
 
 See DocC: open the "WrkstrmMain" documentation in Xcode or `swift-docc` and start with the
-[JSON Types Index](Sources/WrkstrmMain/Documentation.docc/JSONIndex.md). The `JSON` namespace is
+[JSON Types Index](sources/wrkstrm-main/Documentation.docc/JSONIndex.md). The `JSON` namespace is
 split into small files for clarity.
 
-[`KeyedDecodingContainer+FuzzyDecoding.swift`](Sources/WrkstrmMain/JSON/KeyedDecodingContainer+FuzzyDecoding.swift)
+[`KeyedDecodingContainer+FuzzyDecoding.swift`](sources/wrkstrm-main/JSON/KeyedDecodingContainer+FuzzyDecoding.swift)
 adds helpers for dealing with inconsistent API responses:
 
 - `decodeAllowingNullOrEmptyObject` maps `null`, the string "null", or `{}` to `nil`.
@@ -142,7 +142,7 @@ Import WrkstrmFoundation alongside WrkstrmMain to access these APIs.
 ## 🏁 Flagship + Docs
 
 WrkstrmMain is a flagship library: we pressure‑test best practices here (API design, DocC, tests,
-observability). Explore the DocC articles under `Sources/WrkstrmMain/Documentation.docc/` for
+observability). Explore the DocC articles under `sources/wrkstrm-main/Documentation.docc/` for
 symbol topics and indices.
 
 ### Path Utilities
@@ -151,7 +151,7 @@ Filter arrays of path strings using the `sourceFiles`, `nibFiles`, `baseLocalize
 `unlocalizedNibFiles` properties.
 
 See the
-[Source File Filters documentation](Sources/WrkstrmMain/Documentation.docc/SourceFileFilters.md) for
+[Source File Filters documentation](sources/wrkstrm-main/Documentation.docc/SourceFileFilters.md) for
 more examples.
 
 ```swift
@@ -163,9 +163,9 @@ let nibs = paths.nibFiles            // ["Main.storyboard", "Base.lproj/Main.sto
 ### Custom Collections
 
 Custom collection types are available in
-[BinaryTree.swift](Sources/WrkstrmMain/CustomCollections/Classes/BinaryTree.swift),
-[SortedArray.swift](Sources/WrkstrmMain/CustomCollections/Structs/SortedArray.swift) and
-[IndexedCollection.swift](Sources/WrkstrmMain/CustomCollections/Structs/IndexedCollection.swift).
+[BinaryTree.swift](sources/wrkstrm-main/CustomCollections/Classes/BinaryTree.swift),
+[SortedArray.swift](sources/wrkstrm-main/CustomCollections/Structs/SortedArray.swift) and
+[IndexedCollection.swift](sources/wrkstrm-main/CustomCollections/Structs/IndexedCollection.swift).
 
 ```swift
 let tree = BinaryTree(5)
@@ -182,7 +182,7 @@ for (index, element) in ["a", "b"].indexed() {
 
 ### `Injectable` Protocol Usage
 
-See [Injectable.swift](Sources/WrkstrmMain/Protocols/Injectable.swift).
+See [Injectable.swift](sources/wrkstrm-main/Protocols/Injectable.swift).
 
 ```swift
 struct NetworkService { }
@@ -247,7 +247,7 @@ final class UserViewModel: Injectable {
 }
 ```
 
-See the [Injectable documentation](Sources/WrkstrmMain/Documentation.docc/Injectable.md) for a
+See the [Injectable documentation](sources/wrkstrm-main/Documentation.docc/Injectable.md) for a
 deeper explanation and more examples.
 
 ## 🧪 Testing

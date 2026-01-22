@@ -20,11 +20,13 @@ let package = Package(
   targets: [
     .target(
       name: "WrkstrmMain",
+      path: "sources/wrkstrm-main",
       swiftSettings: Package.Inject.shared.swiftSettings,
     ),
     .testTarget(
       name: "WrkstrmMainTests",
       dependencies: ["WrkstrmMain"],
+      path: "tests/wrkstrm-main-tests",
       swiftSettings: Package.Inject.shared.swiftSettings,
     ),
   ],
