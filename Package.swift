@@ -5,7 +5,7 @@ import PackageDescription
 // MARK: - Package Declaration
 
 let package = Package(
-  name: "WrkstrmMain",
+  name: "wrkstrm-main",
   platforms: [
     .iOS(.v16),
     .macOS(.v13),
