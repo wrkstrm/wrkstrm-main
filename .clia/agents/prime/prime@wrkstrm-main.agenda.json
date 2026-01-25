@@ -1,0 +1,67 @@
+{
+  "agent" : {
+    "role" : "Prime"
+  },
+  "horizons" : [
+    {
+      "key" : "near",
+      "label" : "Near-Term"
+    },
+    {
+      "key" : "mid",
+      "label" : "Mid-Term"
+    },
+    {
+      "key" : "far",
+      "label" : "Long-Term"
+    }
+  ],
+  "links" : [
+
+  ],
+  "milestones" : [
+    {
+      "id" : "near-1",
+      "status" : "planned",
+      "title" : "Finish kebab-case path cleanup and ensure CommonShell/CommonProcess replaces legacy adapters."
+    },
+    {
+      "id" : "mid-1",
+      "status" : "planned",
+      "title" : "Add CI coverage for universal targets and keep DocC links valid after reorg."
+    },
+    {
+      "id" : "far-1",
+      "status" : "planned",
+      "title" : "Publish OSS-ready roadmap and tooling spec for downstream consumers."
+    }
+  ],
+  "notes" : [
+    {
+      "author" : "",
+      "blocks" : [
+
+      ],
+      "date" : ""
+    }
+  ],
+  "owners" : [
+    "^codex@todo3",
+    "^dott@todo3",
+    "^carrie@todo3"
+  ],
+  "principles" : [
+    "CLIA-first: typed adapters; CommonShell/CommonProcess only.",
+    "Prefer CommonLog; remove WrkstrmLog.",
+    "No secrets in logs."
+  ],
+  "schemaVersion" : "0.4.0",
+  "slug" : "wrkstrm-main-prime",
+  "sourcePath" : "code/mono/apple/spm/universal/domain/system/wrkstrm-main/.clia/agents/prime/prime@wrkstrm-main.agenda.md",
+  "status" : "draft",
+  "tags" : [
+
+  ],
+  "title" : "AGENDA — WrkstrmMain (Prime)",
+  "updated" : "2026-01-25T00:00:00Z"
+}
