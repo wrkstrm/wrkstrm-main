@@ -39,7 +39,7 @@ Add `WrkstrmMain` as a dependency in your `Package.swift` file:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/wrkstrm/WrkstrmMain.git", .upToNextMajor(from: "2.3.0"))
+    .package(url: "https://github.com/wrkstrm/wrkstrm-main.git", .upToNextMajor(from: "3.0.0"))
 ]
 ```
 
