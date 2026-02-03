@@ -8,7 +8,7 @@ let package = Package(
   name: "WrkstrmMain",
   platforms: [
     .iOS(.v16),
-    .macOS(.v14),
+    .macOS(.v11),
     .macCatalyst(.v13),
     .tvOS(.v16),
     .visionOS(.v1),
