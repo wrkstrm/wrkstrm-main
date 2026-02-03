@@ -42,7 +42,7 @@ print("---- Package Inject Deps: End ----")
 extension Package {
   @MainActor
   public struct Inject {
-    public static let version = "2.3.0"
+    public static let version = "3.0.4"
 
     public var swiftSettings: [SwiftSetting] = []
     var dependencies: [PackageDescription.Package.Dependency] = []
